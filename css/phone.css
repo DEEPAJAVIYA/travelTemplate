@@ -1,0 +1,670 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1641b6;
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+header .header2 ul li {
+    list-style: none;
+    padding: 0.3rem;
+}
+
+header .header2 ul li a {
+    font-size: 0.7rem;
+}
+
+header .header1 h1 {
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.extra {
+    width: 100vw;
+    height: 0.2rem;
+}
+
+.home_main .intro {
+    width: 100vw;
+    height: 22rem;
+    flex-direction: column;
+    background-color: rgb(141, 208, 235);
+}
+
+.home_main .intro .intro_pic {
+    width: 100vw;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.home_main .intro .intro_pic img {
+    width: 15rem;
+    height: 7rem;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    border: 5px solid white;
+}
+
+.home_main .intro .intro-info {
+    width: 100vw;
+    height: 22rem;
+    padding: 0.5rem;
+    color: rgb(0, 0, 0);
+}
+
+.home_main .intro .intro-info .I-heading {
+    height: 4rem;
+    font-size: 1.3rem;
+    font-weight: 0.6rem;
+}
+
+.home_main .intro .intro-info .I-heading p {
+    padding: 0.3rem;
+    text-align: center;
+}
+
+.home_main .intro .intro-info .I-info {
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+
+.home_main .intro .intro-info .I-info p {
+    line-height: 1rem;
+    padding: 0.2rem;
+    text-align: center;
+}
+
+.home_main .intro .intro-info .I_button {
+    padding-top: 1rem;
+    height: 3rem;
+    text-align: center;
+}
+
+.home_main .intro .intro-info .I_button button {
+    width: 7rem;
+    height: 1.3rem;
+    font-size: 0.8rem;
+    border-radius: 0.2rem;
+}
+
+.home_main .intro .intro-info .I_button button :hover {
+    color: blue;
+    background-color: rgb(235, 235, 235);
+    transition: 0.1ms;
+}
+
+.home_main .some_info {
+    height: auto;
+    flex-direction: column;
+}
+
+.home_main .some_info .s1_main {
+    width: 100vw;
+    align-items: center;
+    padding: 1rem;
+}
+
+.home_main .some_info .s1_main .s1 {
+    width: 100vw;
+}
+
+.home_main .some_info .s1_main .s1 .s1_h {
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+.home_main .some_info .s1_main .s1 .s1_p {
+    font-size: 0.65rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home_main .some_info .s1_main .s1 .s1_p p {
+    padding: 0.3rem 0.6rem;
+    line-height: 1rem;
+}
+
+.home_main .some_info .s2_main {
+    width: 100vw;
+    height: auto;
+    padding: 0.6rem;
+    padding-bottom: 1.8rem;
+}
+
+.home_main .some_info .s2_main .s2 {
+    width: 70vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 3px 3px grey, 0px 3px 0px grey;
+}
+
+.home_main .some_info .s2_main .s2 .s2_heading {
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.home_main .some_info .s2_main .s2 .latest_news .t1 {
+    background-color: #fdfafa;
+    padding: 1rem;
+}
+
+.home_main .some_info .s2_main .s2 .latest_news .t1 ul li {
+    list-style: none;
+    padding-left: 0.5rem;
+    color: grey;
+    font-size: 0.8rem;
+}
+
+.home_main .some_info .s2_main .s2 .latest_news .t1 ul li img {
+    width: 5rem;
+    height: 6rem;
+}
+
+.home_main .some_info .s2_main .s2 .latest_news .t1:hover {
+    background-color: #e2e1e1;
+}
+
+.about_main {
+    height: auto;
+    flex-direction: column;
+}
+
+.about_main .a1 {
+    width: 100vw;
+    padding: 1rem 2rem;
+}
+
+.about_main .a1 .about_info {
+    height: auto;
+    padding-bottom: 0.5rem;
+    font-size: 0.7rem;
+}
+
+.about_main .a1 .about_info1 {
+    height: auto;
+}
+
+.about_main .a1 .about_info1 p {
+    padding: 0.5rem;
+    padding-left: 0rem;
+    font-size: 0.8rem;
+}
+
+.about_main .about_pic {
+    width: 100vw;
+    margin-bottom: 0.9rem;
+}
+
+.about_main .about_pic img {
+    width: 18rem;
+    height: 7rem;
+    display: flex;
+    margin-left: 2rem;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+}
+
+.register_main {
+    width: 100vw;
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+.register_main .register {
+    width: 100vw;
+    height: auto;
+    padding: 1.5rem 0rem 0rem 2rem;
+}
+
+.register_main .register .register_heading {
+    font-size: 0.65rem;
+    width: 82vw;
+    padding: 1rem 0rem;
+    margin-left: 0.3rem;
+}
+
+.register_main .register .register_details {
+    font-size: 0.9rem;
+}
+
+.register_main .register .register_details ul {
+    padding: 0.2rem;
+}
+
+.register_main .register .register_details ul li {
+    padding: 0.2rem;
+}
+
+.register_main .register .register_details ul li input {
+    width: 18rem;
+    height: 1.3rem;
+}
+
+.register_main .register .register_details ul li button {
+    width: 5rem;
+    height: 2rem;
+    font-size: 0.7rem;
+}
+
+.register_main .register .register_details ul li button:hover {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+.login_main {
+    width: 100vw;
+    height: auto;
+}
+
+.login_main .login {
+    width: 100vw;
+    padding: 2rem;
+}
+
+.login_main .login .login_heading {
+    font-size: 0.65rem;
+    width: 70vw;
+    padding: 1rem 0rem;
+    margin-left: 0.3rem;
+}
+
+.login_main .login .login_details {
+    font-size: 0.9rem;
+}
+
+.login_main .login .login_details ul {
+    padding: 0.2rem;
+}
+
+.login_main .login .login_details ul li {
+    padding: 0.2rem;
+}
+
+.login_main .login .login_details ul li input {
+    width: 16rem;
+    height: 1.3rem;
+}
+
+.login_main .login .login_details .login_btn ul li button {
+    width: 5rem;
+    height: 1.7rem;
+    font-size: 0.7rem;
+}
+
+.login_main .login .login_details .login_btn ul li #r_btn {
+    width: 10.5rem;
+    height: 1.7rem;
+    font-size: 0.7rem;
+}
+
+.login_main .login .login_details .login_btn ul li button:hover {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+.login_main .login .login_details .forget_password p {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.forget_main {
+    width: 100vw;
+    height: 27rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.forget_main .forget {
+    width: 60vw;
+    height: 27rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-left: 10rem;
+}
+
+.forget_main .forget .forget_heading {
+    font-size: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+    width: 40rem;
+    letter-spacing: 0.1rem;
+}
+
+.forget_main .forget .forget_details {
+    font-size: 1.3rem;
+}
+
+.forget_main .forget .forget_details ul {
+    padding: 0.5rem;
+}
+
+.forget_main .forget .forget_details ul li {
+    list-style: none;
+    padding: 0.2rem;
+}
+
+.forget_main .forget .forget_details ul li input {
+    width: 30rem;
+    height: 1.9rem;
+}
+
+.forget_main .forget .forget_details .forget_btn ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.forget_main .forget .forget_details .forget_btn ul li {
+    list-style: none;
+}
+
+.forget_main .forget .forget_details .forget_btn ul li button {
+    width: 10rem;
+    height: 2.2rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #0647c0;
+}
+
+.forget_main .forget .forget_details .forget_btn ul li button:hover {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+.forget_main .forget .forget_details .for_login {
+    color: #9b0202;
+}
+
+.forget_main .forget .forget_details .for_login p {
+    padding: 0.8rem;
+}
+
+.forget_main .forget .forget_details .for_login p a {
+    color: #9b0202;
+    font-weight: bold;
+}
+
+.contact_main {
+    width: 100vw;
+    height: auto;
+}
+
+.contact_main .contact {
+    width: 100vw;
+    height: auto;
+    padding: 2rem;
+}
+
+.contact_main .contact .contact_heading {
+    font-size: 0.65rem;
+    width: 85vw;
+    padding: 1rem 0rem;
+    margin-left: 0.3rem;
+}
+
+.contact_main .contact .contact_details {
+    font-size: 0.9rem;
+}
+
+.contact_main .contact .contact_details ul {
+    padding: 0.2rem;
+}
+
+.contact_main .contact .contact_details ul li {
+    padding: 0.2rem;
+}
+
+.contact_main .contact .contact_details ul li input {
+    width: 16rem;
+    height: 1.3rem;
+}
+
+.contact_main .contact .contact_details ul li textarea {
+    width: 16rem;
+    height: 5rem;
+}
+
+.contact_main .contact .contact_details .contact_btn ul li button {
+    width: 16rem;
+    height: 1.9rem;
+    font-size: 0.7rem;
+}
+
+.contact_main .contact .contact_details .contact_btn ul li input #mail {
+    width: 16rem;
+    height: 1.3rem;
+}
+
+.contact_main .contact .contact_details .contact_btn ul li button:hover {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+.contact_main .contact .contact_details .contact p {
+    padding: 0.8rem;
+}
+
+.contact_main .contact .contact_details .contact p a {
+    text-decoration: none;
+    color: red;
+}
+
+.registration_main {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.registration_main .registration_conform {
+    width: 50vw;
+    height: 15rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-left: 10rem;
+}
+
+.registration_main .registration_conform .registration_heading {
+    font-size: 1rem;
+    padding: 2rem 0rem 1rem 0rem;
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+    width: 40rem;
+    letter-spacing: 0.1rem;
+}
+
+.registration_main .registration_conform .registration_info p {
+    font-size: 1.2rem;
+    color: red;
+    font-weight: bold;
+    padding: 1rem 0rem 4rem 0rem;
+}
+
+.login2_main {
+    width: 100vw;
+    height: 15rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.login2_main .login2_conform {
+    width: 50vw;
+    height: 15rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-left: 10rem;
+}
+
+.login2_main .login2_conform .login2_heading {
+    font-size: 1rem;
+    padding: 2rem 0rem 1rem 0rem;
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+    width: 40rem;
+    letter-spacing: 0.1rem;
+}
+
+.login2_main .login2_conform .login2_info p {
+    font-size: 1.2rem;
+    color: red;
+    font-weight: bold;
+    padding: 1rem 0rem 4rem 0rem;
+}
+
+.img_main .img_heading {
+    padding: 0.5rem;
+}
+
+.img_main .img_heading .headinggg {
+    width: 100vw;
+    padding: 1rem 1.7rem;
+}
+
+.img_main .img_heading .headinggg h1 {
+    font-size: 1.1rem;
+}
+
+.img_main .img_container .img_2nd_con .image {
+    margin: 0.5rem;
+}
+
+.img_main .img_container .img_2nd_con .image .img {
+    font-size: 0.8rem;
+}
+
+.img_main .img_container .img_2nd_con .image .img img {
+    width: 19rem;
+    height: 9rem;
+}
+
+.img_main .img_container .img_2nd_con .image .img p {
+    padding: 0.5rem;
+}
+
+.extra2 {
+    width: 100vw;
+    height: 0.4rem;
+    background-color: grey;
+}
+
+.extra2 {
+    width: 100vw;
+    height: 0.4rem;
+    background-color: grey;
+}
+
+footer {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .f_section {
+    width: 30vw;
+    height: auto;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+footer .f_section ul {
+    height: auto;
+}
+
+footer .f_section ul li {
+    padding: 0.2rem;
+}
+
+footer .f_section ul li a {
+    font-size: 0.4rem;
+}
+
+footer .f_section ul li .fh {
+    font-size: 1rem;
+    width: 25vw;
+}
+
+
+/*# sourceMappingURL=travel.css.map */
